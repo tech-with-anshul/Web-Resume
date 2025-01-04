@@ -1,0 +1,269 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hover-bounce {
+    transition: transform 0.3s ease;
+}
+
+.hover-bounce:hover {
+    transform: scale(1.1) translateY(-10px);
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #fff5d7;
+    color: white;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-[#ff5e6c] {
+    color: #ff5e6c;
+}
+
+.text-[#feb300] {
+    color: #feb300;
+}
+
+.bg-[#222] {
+    background-color: #222;
+}
+
+.bg-[#ff5e6c] {
+    background-color: #ff5e6c;
+}
+
+.bg-opacity-70 {
+    opacity: 0.7;
+}
+
+.backdrop-blur-lg {
+    backdrop-filter: blur(10px);
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.transition {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.transform {
+    transform: scale(1);
+}
+
+.hover\:scale-105:hover {
+    transform: scale(1.05);
+}
+
+.hover\:text-[#ff5e6c]:hover {
+    color: #ff5e6c;
+}
+
+.hover\:scale-110:hover {
+    transform: scale(1.1);
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.mt-6 {
+    margin-top: 1.5rem;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+.mt-12 {
+    margin-top: 3rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.tracking-wide {
+    letter-spacing: 0.05em;
+}
+
+.w-[300px] {
+    width: 300px;
+}
+
+.h-[300px] {
+    height: 300px;
+}
+
+.max-w-screen-lg {
+    max-width: 1024px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.space-y-4 > :not(template) ~ :not(template) {
+    margin-top: 1rem;
+}
+
+.space-y-6 > :not(template) ~ :not(template) {
+    margin-top: 1.5rem;
+}
+
+.space-x-8 > :not(template) ~ :not(template) {
+    margin-left: 2rem;
+}
+
+.border-4 {
+    border-width: 4px;
+}
+
+.border-b-4 {
+    border-bottom-width: 4px;
+}
+
+.border-white {
+    border-color: white;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.group:hover .group-hover\:block {
+    display: block;
+}
+
+.group:hover .group-hover\:hidden {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.top-4 {
+    top: 1rem;
+}
+
+.top-8 {
+    top: 2rem;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.right-4 {
+    right: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.max-w-[250px] {
+    max-width: 250px;
+}
+
+.max-h-[300px] {
+    max-height: 300px;
+}
+
+.max-h-[250px] {
+    max-height: 250px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-opacity-80 {
+    opacity: 0.8;
+}
+
+.rounded-md {
+    border-radius: 0.375rem;
+}
+
+.text-[#dcdcdc] {
+    color: #dcdcdc;
+}
